@@ -1,4 +1,4 @@
-# RainAlertSMS
+# RainAlertSMS CloudService (AWS)
 
 
 1. The Cronjob from the CloudWatch service triggers the lambda once every hour, 24/7.
