@@ -7,3 +7,5 @@
 4. Once the lambda determines it isappropriate to send the message it places it on the SNS topic. I was using the SNS sandbox which allows upto 10 numbersto easily subscribe. Since the requirement was just for less than 5 people this setup was sufficient.
 5. To send the SMS, SNS needs an originator number. I used AWS Pinpoint for that. The SMS are sent in a fan out manner
 6. Most of the services are free or nearly free. Below is the system design diagram showing the flow
+
+![RainSMS drawio](https://user-images.githubusercontent.com/103344276/163653904-dc618d4c-47ff-4add-a57c-9b9ec0cbd68d.png)
